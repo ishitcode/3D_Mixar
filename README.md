@@ -127,10 +127,7 @@ Step 3 — Run Task 2: Normalize & Quantize (single or batch)
 You may run per-file script or the batch driver.
 
 ```powershell
-# single file example:
-py -3 .\task2_normalize_quantize.py D:\3D_mixar\8samples\branch.obj
 
-# or batch for all samples
 py -3 .\batch_task2_all.py
 ```
 
@@ -139,10 +136,7 @@ Step 4 — Run Task 3: Dequantize, Denormalize & Error Analysis
 Run per-file or batch version.
 
 ```powershell
-# single file example:
-py -3 .\task3_error_analysis.py D:\3D_mixar\8samples\branch.obj
 
-# or batch for all samples
 py -3 .\batch_task3_all.py
 ```
 
